@@ -2,5 +2,11 @@
 name = "wrs"
 version = "0.1.0"
 edition = "2024"
+license = "MIT"
+license-file = "LICENSE.md"
+keywords = ["wayland", "compositor"]
+description = "An implementation of the Wayland protocol in pure Rust"
+readme = "README.md"
+repository = "https://github.com/xero-lib/wrs"
 
 [dependencies]

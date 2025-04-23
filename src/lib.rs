@@ -1,9 +1,11 @@
+pub mod server;
+pub mod client;
+pub mod protocol;
+
 #[cfg(test)]
 mod tests {
-    use super::*;
+    // use super::*;
 
     #[test]
-    fn it_works() {
-        assert_eq!(true, 1 == 1);
-    }
+    fn it_works() {}
 }

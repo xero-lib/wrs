@@ -10,3 +10,5 @@ readme = "README.md"
 repository = "https://github.com/xero-lib/wrs"
 
 [dependencies]
+ash = "0.38.0"
+nix = { version = "0.29.0", features = ["socket"] }
